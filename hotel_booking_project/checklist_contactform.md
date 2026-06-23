@@ -1,9 +1,9 @@
 # Checklist: Contact Us Form Testing
 
 ## 1. Positive Scenarios
-- [ ] Submit the form with all fields filled with valid data
-- [ ] Verify that the success message ("Thanks for getting in touch") is displayed
-- [ ] Submit the form with the minimum allowed character length in text fields
+- [x] Submit the form with all fields filled with valid data
+- [x] Verify that the success message ("Thanks for getting in touch") is displayed
+- [x] Submit the form with the minimum allowed character length in text fields (Subject 5, Phone 11, Message 20)
 
 ## 2. Text Fields Validation (Name, Subject, Description)
 - [ ] Submit the form with empty mandatory fields (verify error messages)
