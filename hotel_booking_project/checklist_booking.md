@@ -14,8 +14,8 @@
 - [ ] Click 'Reserve Now' with all contact fields empty (Verify error messages appear).
 - [ ] Input numbers and speacial characters into 'Firstname' and 'Lastname' fields (e.g., Josh22, Jacob_@1!;)
 - [ ] Input invalid email field:
- * Missing '@' symbol (e.g., testmail.com)
- * Missing domain name (e.g., test@)
- * Invalid/overlong top-level domain (e.g., test@mail.cooom)
+  * Missing '@' symbol (e.g., testmail.com)
+  * Missing domain name (e.g., test@)
+  * Invalid/overlong top-level domain (e.g., test@mail.cooom)
 - [ ] Input alphabetic and special characters into 'Phone' field (Verify it triggers error)
 - [ ] Input out-of-boundary length values into 'Phone' field (Less than 11 and more than 20 characters)
