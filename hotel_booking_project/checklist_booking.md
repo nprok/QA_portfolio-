@@ -8,7 +8,7 @@
   * Double Room (£150 per night)
   * Suite Room (£225 per night)
 - [ ] Verify that Cleaning (£25) and Service (£15) fees remain fixed and do not multiply by number of nights.
--  [ ] Verify that changing the booking month or selecting different future dates recalculates the price correctly without system errors.
+- [ ] Verify that changing the booking month or selecting different future dates recalculates the price correctly without system errors.
 
 ## 2. Text Fields Validation (Negative Scenarios)
 - [ ] Click 'Reserve Now' with all contact fields empty (Verify error messages appear).
@@ -20,4 +20,8 @@
 - [ ] Input alphabetic and special characters into 'Phone' field (Verify it triggers error)
 - [ ] Input out-of-boundary length values into 'Phone' field (Less than 11 and more than 20 characters)
 
+## 3. Date selection & Calendar validation 
+- [ ] Try to select past dates on the calendar (Verify that dates before today are disabled)
+- [ ] Try to book a room with check-out date prior to check-in date (e.g., Check-in: Today, Check-out: Yesterday)
+- [ ] Select an extremely long booking duration (e.g., 45 nights) to verify maximum limit restictrictions and price calculation stability. 
 
