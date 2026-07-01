@@ -20,7 +20,7 @@
 - [x] Input out-of-boundary length values into 'Phone' field (Less than 11 and more than 20 characters)
 
 ## 3. Date selection & Calendar validation 
-- [ ] Try to select past dates on the calendar (Verify that dates before today are disabled)
-- [ ] Try to book a room with check-out date prior to check-in date (e.g., Check-in: Today, Check-out: Yesterday)
-- [ ] Select an extremely long booking duration (e.g., 45 nights) to verify maximum limit restrictions and price calculation stability. 
+- [ ] Try to select past dates on the calendar (Verify that dates before today are disabled) `Failed` `Bug #8` 
+- [ ] Try to book a room with check-out date prior to check-in date (e.g., Check-in: Today, Check-out: Yesterday) `Failed` `Bug #9` 
+- [x] Select an extremely long booking duration (e.g., 45 nights) to verify maximum limit restrictions and price calculation stability. `Found Bug #10` 
 
